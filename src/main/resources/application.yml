@@ -1,0 +1,16 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/kyivstar_cas_db?useUnicode=true&characterEncoding=utf-8&&serverTimezone=Europe/Kiev
+    username: cas
+    password: 53mgAH[62XZum[XwmY<"
+    driver-class-name: com.mysql.jdbc.Driver
+  mail:
+    web-application-type: NONE
+  couchbase:
+    bootstrap-hosts: localhost:8091
+    bucket:
+      name: tgtdefault
+      password: Qwerty123!
+    accmap-bucket:
+      name: accmap
+      password: Qwerty123!
